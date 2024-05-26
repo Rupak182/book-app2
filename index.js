@@ -37,11 +37,11 @@ app.use("/user",userRoute)
 
 const __dirname = path.resolve();
 
-app.get("/",(req,res)=>{
-  app.use(express.static(path.resolve(__dirname,"Frontend","dist")));
-  res.sendFile(path.resolve(__dirname,"Frontend","dist","index.html"))
+// app.get("/",(req,res)=>{
+//   app.use(express.static(path.resolve(__dirname,"Frontend","dist")));
+//   res.sendFile(path.resolve(__dirname,"Frontend","dist","index.html"))
 
-})
+// })
     
 
 
